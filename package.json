@@ -1,0 +1,39 @@
+{
+  "name": "testingwithai",
+  "version": "1.0.0",
+  "description": "TestingWithAI - Empowering QA & AQA with AI across the entire testing lifecycle",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server",
+    "build": "echo 'Build script placeholder'",
+    "minify-css": "cleancss -o public/css/styles.min.css public/css/styles.css",
+    "minify-js": "uglifyjs public/js/main.js -o public/js/main.min.js",
+    "optimize": "npm run minify-css && npm run minify-js",
+    "serve": "http-server",
+    "test": "echo 'Testing scripts to be added'"
+  },
+  "keywords": [
+    "AI",
+    "Testing",
+    "QA",
+    "Automation",
+    "Software Testing"
+  ],
+  "author": "TestingWithAI Team",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-css-cli": "^5.6.0",
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "uglify-js": "^3.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/testingwithai_site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/testingwithai_site/issues"
+  },
+  "homepage": "https://testingwithai.com"
+}
+
